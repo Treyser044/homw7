@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.header img{
+    margin: 27px 0px 0px  50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 50px 50px 27px;
+    align-items: center;
+}
+
+.nav__bar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #333333;
+}
+
+.nav__bar li{
+    display: flex;
+    align-items: center;
+}
+
+.nav__bar a{
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #333333;
+display: flex;
+align-items: center;
+}
+
+
+.dialog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog a{
+    width: 193px;
+height: 51px;
+top: 492px;
+left: 50px;
+border-radius: 100px;
+padding: 16px 24px 16px 24px;
+gap: 10px;
+background-color: #0A775F;
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 1px;
+text-align: center;
+font-variant: small-caps;
+color: white;
+margin-left: 50px;
+}
+
+.diag h2{
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0px;
+padding: 176px 233px 0px 50px;
+}
+
+.diag p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+padding: 47px 216px 47px 50px;
+}
+
+.rasm{
+    position: absolute;
+    top: 33px;
+    left: 700px;
+    animation: krug 11s  infinite ;
+    transform-origin:  center center;
+}
+
+
+.nachalo{
+   background-color: #F3D7B7;
+   width: 1521px;
+   height: 800px;
+   position: relative;
+}
+
+.colect h2{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+font-variant: small-caps;
+padding-top: 108px;
+}
+
+.vibor{
+justify-content: center;
+padding: 42px 0px 89px 0px;
+}
+
+.buni{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarkib{
+    margin: 121px 178px 198px 143px;
+}
+
+.tarkib h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-variant: small-caps;
+    color: #333333;    
+    padding-left: 111px;
+}
+
+.tarkib p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    padding: 10px 150px 120px 117px;
+}
+
+.buni img{
+    width: 451.25px;
+height: 375.0000915527344px;
+animation: kat 2s infinite;
+transition: 0.5s;
+}
+
+.two{
+    background-color: #F3D7B7;
+}
+
+.sot{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+
+@keyframes krug {
+   
+    /*25%{
+    transform: rotate(90deg);
+   }*/
+   
+   /* 50%{
+        transform: rotate(359deg);
+
+    }*/
+
+   /* 75%{
+        transform: rotate(270deg);
+    }*/
+
+    100%{
+        transform: rotate(360deg);
+        transform-origin:  center center;
+    }
+}
+
+
+.buni img:hover{
+    transform: scale(1.2);
+}
